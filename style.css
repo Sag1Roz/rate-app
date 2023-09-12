@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 35vh;
+  width: 30vh;
+  border: 3px solid black;
+  background-color: #ff8c42;
+  border-radius: 20px;
+}
+
+.title {
+  text-align: center;
+  color: #ffdb58;
+}
+
+.rating-button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 5rem 0 0 0;
+}
+
+.rating-button button {
+  border-radius: 50%;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.rate {
+  margin: 5rem 0 0 0;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.submit-button {
+  margin: 4rem 0 0 4.5rem;
+}
+
+.submit-button button {
+  padding: 1rem 2.5rem;
+  border-radius: 15px;
+  border: none;
+  background-color: #aa4c0a;
+  color: #f5de7a;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.rating-button button:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.submit-button button:hover {
+  background-color: #f5de7a;
+  color: #aa4c0a;
+}
+
+.work {
+  background-color: white !important;
+  color: black !important;
+}
+
+.hide {
+  display: none;
+}
+
+.bad {
+  color: red;
+}
+
+.normal {
+  color: yellow;
+}
+
+.excellent {
+  color: greenyellow;
+}
